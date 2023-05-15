@@ -14,6 +14,7 @@ export default function Resume() {
         Testimonial
       </h1>
     </div>
+    
     {testimonial.map((d)=><div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
       <div className="flex flex-col items-center pt-8">
         <Image
