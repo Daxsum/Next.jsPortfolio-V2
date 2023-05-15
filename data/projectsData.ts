@@ -26,7 +26,7 @@ const projectsData = [
   {
     title: 'Productivity Management App',
     description: `a Productivity Management WebApp that's designed to help individuals and teams organize and optimize their daily tasks, projects, and schedules. With features such as task lists, calendars, project tracking, time tracking, and goal setting, this app can help users stay on top of their workload, prioritize tasks, and increase efficiency.`,
-    imgSrc: '/static/images/productivity.avif',
+    imgSrc: '/static/images/productivity.jpg',
     href: 'https://pro-stay.vercel.app/',
   },
   {
