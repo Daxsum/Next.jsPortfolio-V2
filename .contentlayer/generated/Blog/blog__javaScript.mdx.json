@@ -1,0 +1,62 @@
+{
+  "title": "What is JavaScript ?",
+  "date": "2022-11-23T21:00:00.000Z",
+  "tags": [
+    "coding"
+  ],
+  "lastmod": "2022-11-23T00:00:00.000Z",
+  "draft": false,
+  "summary": "Why is JavaScript popular?",
+  "body": {
+    "raw": "\n## JavaScript\nJavaScript is a popular programming language used for creating dynamic and interactive web pages. It is a client-side language that runs on the user's web browser, making it an essential part of web development. In this blog, we will discuss what JavaScript is, its features, and its importance in web development.\n\n## What is JavaScript?\nJavaScript is a high-level, interpreted programming language used to create interactive web pages. It was created by Brendan Eich in 1995 while he was working at Netscape. Since then, it has become one of the most popular programming languages in the world.\n\nJavaScript is a versatile language that can be used for a wide range of tasks. It can be used for creating complex web applications, building desktop applications, and even for creating mobile applications. JavaScript is an object-oriented language, which means that it uses objects to represent data and behavior.\n\n## Features of JavaScript\nJavaScript has many features that make it a powerful language for web development. Some of these features include:\n\nInteractivity: JavaScript enables web developers to create interactive web pages that respond to user actions. This makes it possible to create dynamic and engaging web applications.\n\nCross-platform compatibility: JavaScript can be used on a wide range of platforms, including web browsers, desktop computers, and mobile devices.\n\nEasy to learn: JavaScript is a relatively easy language to learn, especially for those who already have experience with HTML and CSS.\n\nLarge community: JavaScript has a large and active community of developers who are constantly creating new libraries and frameworks to make development easier.\n\nSpeed: JavaScript is a fast language, which means that it can process data quickly and efficiently. This makes it ideal for creating real-time applications.\n\n## Importance of JavaScript in web development\nJavaScript is an essential part of web development. It is used to create interactive and dynamic web pages, which makes the web more engaging and user-friendly. Some of the key areas where JavaScript is used in web development include:\n\nFront-end development: JavaScript is used extensively in front-end web development, where it is used to create interactive user interfaces and responsive web design.\n\nBack-end development: JavaScript can also be used for back-end web development, where it is used to create server-side applications and manage databases.\n\nMobile development: JavaScript is a popular choice for mobile app development, as it can be used to create hybrid mobile applications that run on both iOS and Android devices.\n\nWeb-based games: JavaScript is used to create web-based games, which have become increasingly popular in recent years.\n\n## In my Conclusion\nJavaScript is a powerful programming language that is essential for web development. Its versatility, ease of use, and cross-platform compatibility make it a popular choice for creating dynamic and interactive web pages. With the continued growth of the web, it is clear that JavaScript will continue to play a vital role in the future of web development.\n## see you on next blog ✌️",
+    "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var v=(i,n)=>()=>(n||i((n={exports:{}}).exports,n),n.exports),g=(i,n)=>{for(var t in n)s(i,t,{get:n[t],enumerable:!0})},o=(i,n,t,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!u.call(i,r)&&r!==t&&s(i,r,{get:()=>n[r],enumerable:!(a=p(n,r))||a.enumerable});return i};var b=(i,n,t)=>(t=i!=null?l(m(i)):{},o(n||!i||!i.__esModule?s(t,\"default\",{value:i,enumerable:!0}):t,i)),f=i=>o(s({},\"__esModule\",{value:!0}),i);var d=v((x,c)=>{c.exports=_jsx_runtime});var J={};g(J,{default:()=>S,frontmatter:()=>w});var e=b(d()),w={title:\"What is JavaScript ?\",date:new Date(16692372e5),lastmod:\"2022-11-23\",tags:[\"coding\"],draft:!1,summary:\"Why is JavaScript popular?\"};function y(i={}){let{wrapper:n}=i.components||{};return n?(0,e.jsx)(n,Object.assign({},i,{children:(0,e.jsx)(t,{})})):t();function t(){let a=Object.assign({h2:\"h2\",a:\"a\",span:\"span\",p:\"p\"},i.components);return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsxs)(a.h2,{id:\"javascript\",children:[(0,e.jsx)(a.a,{\"aria-hidden\":\"true\",href:\"#javascript\",tabIndex:\"-1\",children:(0,e.jsx)(a.span,{className:\"icon icon-link\"})}),\"JavaScript\"]}),(0,e.jsx)(a.p,{children:\"JavaScript is a popular programming language used for creating dynamic and interactive web pages. It is a client-side language that runs on the user's web browser, making it an essential part of web development. In this blog, we will discuss what JavaScript is, its features, and its importance in web development.\"}),(0,e.jsxs)(a.h2,{id:\"what-is-javascript\",children:[(0,e.jsx)(a.a,{\"aria-hidden\":\"true\",href:\"#what-is-javascript\",tabIndex:\"-1\",children:(0,e.jsx)(a.span,{className:\"icon icon-link\"})}),\"What is JavaScript?\"]}),(0,e.jsx)(a.p,{children:\"JavaScript is a high-level, interpreted programming language used to create interactive web pages. It was created by Brendan Eich in 1995 while he was working at Netscape. Since then, it has become one of the most popular programming languages in the world.\"}),(0,e.jsx)(a.p,{children:\"JavaScript is a versatile language that can be used for a wide range of tasks. It can be used for creating complex web applications, building desktop applications, and even for creating mobile applications. JavaScript is an object-oriented language, which means that it uses objects to represent data and behavior.\"}),(0,e.jsxs)(a.h2,{id:\"features-of-javascript\",children:[(0,e.jsx)(a.a,{\"aria-hidden\":\"true\",href:\"#features-of-javascript\",tabIndex:\"-1\",children:(0,e.jsx)(a.span,{className:\"icon icon-link\"})}),\"Features of JavaScript\"]}),(0,e.jsx)(a.p,{children:\"JavaScript has many features that make it a powerful language for web development. Some of these features include:\"}),(0,e.jsx)(a.p,{children:\"Interactivity: JavaScript enables web developers to create interactive web pages that respond to user actions. This makes it possible to create dynamic and engaging web applications.\"}),(0,e.jsx)(a.p,{children:\"Cross-platform compatibility: JavaScript can be used on a wide range of platforms, including web browsers, desktop computers, and mobile devices.\"}),(0,e.jsx)(a.p,{children:\"Easy to learn: JavaScript is a relatively easy language to learn, especially for those who already have experience with HTML and CSS.\"}),(0,e.jsx)(a.p,{children:\"Large community: JavaScript has a large and active community of developers who are constantly creating new libraries and frameworks to make development easier.\"}),(0,e.jsx)(a.p,{children:\"Speed: JavaScript is a fast language, which means that it can process data quickly and efficiently. This makes it ideal for creating real-time applications.\"}),(0,e.jsxs)(a.h2,{id:\"importance-of-javascript-in-web-development\",children:[(0,e.jsx)(a.a,{\"aria-hidden\":\"true\",href:\"#importance-of-javascript-in-web-development\",tabIndex:\"-1\",children:(0,e.jsx)(a.span,{className:\"icon icon-link\"})}),\"Importance of JavaScript in web development\"]}),(0,e.jsx)(a.p,{children:\"JavaScript is an essential part of web development. It is used to create interactive and dynamic web pages, which makes the web more engaging and user-friendly. Some of the key areas where JavaScript is used in web development include:\"}),(0,e.jsx)(a.p,{children:\"Front-end development: JavaScript is used extensively in front-end web development, where it is used to create interactive user interfaces and responsive web design.\"}),(0,e.jsx)(a.p,{children:\"Back-end development: JavaScript can also be used for back-end web development, where it is used to create server-side applications and manage databases.\"}),(0,e.jsx)(a.p,{children:\"Mobile development: JavaScript is a popular choice for mobile app development, as it can be used to create hybrid mobile applications that run on both iOS and Android devices.\"}),(0,e.jsx)(a.p,{children:\"Web-based games: JavaScript is used to create web-based games, which have become increasingly popular in recent years.\"}),(0,e.jsxs)(a.h2,{id:\"in-my-conclusion\",children:[(0,e.jsx)(a.a,{\"aria-hidden\":\"true\",href:\"#in-my-conclusion\",tabIndex:\"-1\",children:(0,e.jsx)(a.span,{className:\"icon icon-link\"})}),\"In my Conclusion\"]}),(0,e.jsx)(a.p,{children:\"JavaScript is a powerful programming language that is essential for web development. Its versatility, ease of use, and cross-platform compatibility make it a popular choice for creating dynamic and interactive web pages. With the continued growth of the web, it is clear that JavaScript will continue to play a vital role in the future of web development.\"}),(0,e.jsxs)(a.h2,{id:\"see-you-on-next-blog-\\uFE0F\",children:[(0,e.jsx)(a.a,{\"aria-hidden\":\"true\",href:\"#see-you-on-next-blog-\\uFE0F\",tabIndex:\"-1\",children:(0,e.jsx)(a.span,{className:\"icon icon-link\"})}),\"see you on next blog \\u270C\\uFE0F\"]})]})}}var S=y;return f(J);})();\n;return Component;"
+  },
+  "_id": "blog/javaScript.mdx",
+  "_raw": {
+    "sourceFilePath": "blog/javaScript.mdx",
+    "sourceFileName": "javaScript.mdx",
+    "sourceFileDir": "blog",
+    "contentType": "mdx",
+    "flattenedPath": "blog/javaScript"
+  },
+  "type": "Blog",
+  "readingTime": {
+    "text": "3 min read",
+    "minutes": 2.45,
+    "time": 147000,
+    "words": 490
+  },
+  "slug": "javaScript",
+  "toc": [
+    {
+      "value": "JavaScript",
+      "url": "#javascript",
+      "depth": 2
+    },
+    {
+      "value": "What is JavaScript?",
+      "url": "#what-is-javascript",
+      "depth": 2
+    },
+    {
+      "value": "Features of JavaScript",
+      "url": "#features-of-javascript",
+      "depth": 2
+    },
+    {
+      "value": "Importance of JavaScript in web development",
+      "url": "#importance-of-javascript-in-web-development",
+      "depth": 2
+    },
+    {
+      "value": "In my Conclusion",
+      "url": "#in-my-conclusion",
+      "depth": 2
+    },
+    {
+      "value": "see you on next blog ✌️",
+      "url": "#see-you-on-next-blog-️",
+      "depth": 2
+    }
+  ]
+}

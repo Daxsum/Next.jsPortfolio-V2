@@ -1,0 +1,52 @@
+const workExpriance = [
+  {
+    name: " Full Stack Developer ",
+avatar: "/static/images/orange.jpeg",
+occupation:"@ Orange Digital Center ",
+year: "2022-present",
+message:["Responsible to lead the team and work as Front End developer for medical GO_FUND_ME platform called LDAN","Designed, developed, and modified 25+ software modules and custom components","Collaborated with 6 other team members and 4 stakeholders to develop 16 new user-facing features.","Assisted in building 100% reusable code and libraries for future use.","Validated 100% of user input before submitting to the backend.","Analysed 30+ user requirements to derive technical software design and performance requirements"]
+   
+  },
+  {
+    name: " Junior Full Stack developer ",
+    avatar: "/static/images/afrofigure.jpeg",
+    occupation:"@ AfroFigure Event ",
+    year: "2021-2022",
+    message:["Responsible for building and implementing different software products for the company","Developed code following common security practices and development design patterns","Wrote 200+ unit tests to verify the functionality of user interfaces, back-end processing, connectivity, and relational database interactions Maintained 8+ systems and applications as Tier 2 support(break-fix and data changes)","Documented 100% of technical specifications and dependencies of applications","Participated in the planning and execution of 5+business continuity/disaster recovery exercises.","Implemented 5+ system and application designs"]
+       
+  },
+  {
+    name: " Intern UI/UX Designer  ",
+    avatar: "/static/images/afrofigure.jpeg",
+    occupation:"@ AfroFigure Event ",
+    year: "2020-2021",
+    message:["Responsible for gathering and evaluating user requirements, in collaboration with product managers and engineers","Illustrating design ideas using storyboards, process flows and sitemaps","Designing graphic user interface elements, like menus, tabs and widgets","Developing UI mockups and prototypes that clearly illustrate how sites function and look like","Conducting user research and usability testing, organizing and analysing research findings for a better understanding of user insight"]
+       
+  },
+  {
+    name: " Graphics designer and video Editor ",
+    avatar: "/static/images/act.jpeg",
+    occupation:"@ Act American college of Technology. ",
+    year: "2019-2020",
+    message:["Responsible for conceptualizing visuals based on requirements, Creating images and layouts by hand or using design software","Creating Ad videos using computers software by editing some clips","Testing graphics across various media","Coordinating with outside agencies, web designer, marketing, printers, and colleagues as necessary","Communicating with clients about layout and design","Reviewing final layouts and suggesting improvements when necessary"]
+       
+  },
+  {
+    name: " Motion Graphics designer  ",
+    avatar: "/static/images/adulis.jpeg",
+    occupation:"@ Adulis capital ",
+    year: "2018-2019",
+    message:["Responsible for create visually stunning video assets and content for various media platforms such as web, television, or film using visual effects, animation, and other cinematic techniques","Collaborate with creative directors and other colleagues to best support larger media goals and understand the project’s scope and objectives.","Take initiative on projects to over-deliver new and innovative solutions and create powerful stories that capture audiences and pique their interest.","Create graphic templates for easy use by other team members and client teams1.","Select audio, video, colours, and animation for graphic design and use software such as Photoshop and 2D or 3D animation.","Receive and interpret feedback and constructive criticism from internal and external clients while meeting tight deadlines.","Respond to user and client feedback to improve creative work."]
+       
+  }, 
+  {
+    name: " Staff video editor ",
+    avatar: "/static/images/sebermedia.jpeg",
+    occupation:"@ seber media ",
+    year: "2017-2018",
+    message:["Responsible for editing video clips for YouTube channel","Select audio, video, colours, and animation for graphic design and use software such as Photoshop and 2D or 3D animation."]
+       
+  }
+]
+
+export default workExpriance
