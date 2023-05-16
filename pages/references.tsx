@@ -14,7 +14,8 @@ export default function Resume() {
         Testimonial
       </h1>
     </div>
-    {testimonial.map((d)=><div className='signup-form
+    <div className='grid grid-flow-row gap-8 pt-10 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2'>
+    {testimonial.map((d)=><div className='
                max-w-full
                rounded-2xl
                mb-10
@@ -24,32 +25,28 @@ export default function Resume() {
                [ border-[1px] border-solid border-white border-opacity-30 ]
                [ shadow-white/20 shadow-xl ] transform transition duration-300 hover:scale-105'>
                 <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
-        <div className="flex flex-col items-center pt-8">
+        <div className="flex flex-col items-center  pt-8">
           <Image
             src={d.avatar}
             alt="avatar"
             width="192px"
             height="192px"
-            className="h-48 w-48 rounded-full"
+            className="h-48 w-48 rounded-full "
           />
-          <h2 className="pt-4 pb-2 text-md font-bold leading-8 tracking-tight">{d.name}</h2>
-          <div className="text-gray-500 dark:text-gray-400">{d.occupation}</div>
-          <div className="text-gray-500 dark:text-gray-400">{d.name}</div>
+          <h2 className="pt-4 pb-2 text-md font-bold leading-8 tracking-tight whitespace-nowrap">{d.name}</h2>
+          <div className="text-gray-500 dark:text-gray-400  whitespace-nowrap">{d.occupation}</div>
+          <div className="text-gray-500 dark:text-gray-400  whitespace-nowrap">{d.name}</div>
+          <div className="flex space-x-3 pt-6">
           <SocialIcon kind="mail" href={`mailto:${d.email}`} />
           <SocialIcon kind="github" href={d.github} />
           <SocialIcon kind="linkedin" href={d.linkedin} />
-          <div className="flex space-x-3 pt-6">
           </div>
         </div>
         <div className="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">
-      <ul className="max-w-full space-y-1 text-gray-500 list-inside dark:text-gray-400">
-      <li className="flex items-center">
-          <svg className="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
           {d.message}
-      </li>
-    </ul></div>
+     </div>
   </div>
-      </div>)}
+      </div>)}</div>
   
     
   </div>
