@@ -1,5 +1,5 @@
 import siteMetadata from '@/data/siteMetadata'
-import testimonial from '@/data/testimonialData'
+import reference from '@/data/testimonialData'
 import Card from '@/components/Card'
 import { PageSEO } from '@/components/SEO'
 import SocialIcon from '@/components/social-icons'
@@ -11,11 +11,11 @@ export default function Resume() {
     <div className="divide-y">
     <div className="space-y-2 pt-6 pb-8 md:space-y-5">
       <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-        Testimonial
+      References
       </h1>
     </div>
     <div className='grid grid-flow-row gap-8 pt-10 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2'>
-    {testimonial.map((d)=><div className='
+    {reference.map((d)=><div className='
                max-w-full
                rounded-2xl
                mb-10
@@ -35,7 +35,7 @@ export default function Resume() {
           />
           <h2 className="pt-4 pb-2 text-md font-bold leading-8 tracking-tight whitespace-nowrap">{d.name}</h2>
           <div className="text-gray-500 dark:text-gray-400  whitespace-nowrap">{d.occupation}</div>
-          <div className="text-gray-500 dark:text-gray-400  whitespace-nowrap">{d.name}</div>
+          <div className="text-gray-500 dark:text-gray-400  whitespace-nowrap">{d.company}</div>
           <div className="flex space-x-3 pt-6">
           <SocialIcon kind="mail" href={`mailto:${d.email}`} />
           <SocialIcon kind="github" href={d.github} />

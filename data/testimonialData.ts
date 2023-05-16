@@ -3,7 +3,7 @@ const testimonialData = [
     name: "Endalkachew Biruk",
 avatar: "/static/images/logo.png",
 occupation:" Senior Software Engineer ",
-company: "Repplbox",
+company: "@Repplbox",
 email:" Kaldax250@gmail.com",
 linkedin: "https://www.linkedin.com/in/kalab-tenadeg-840a49217/",
 github: "https://github.com/Daxsum",
