@@ -1,6 +1,39 @@
-import React from 'react'
-
+import React, { useState } from 'react'
+import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 export default function landing (){
+  const [email,setEmail]=useState("");
+  const [message,setMessage]=useState("");
+  const handleSubmit=()=>{
+    var templateParams = {
+      to_name: 'kalab',
+      from_name: 'sir/madam',
+      message:message,
+      reply_to:email
+  };
+   
+  emailjs.send('service_sa3v1uw', 'template_bh3e7hs', templateParams,"K5PQH47HJGyC7qX2k")
+      .then(function(response) {
+         console.log('SUCCESS!', response.status, response.text);
+         Swal.fire({
+          position: 'center',
+          icon: 'success',
+          title: 'Your message has been successfully sent!',
+          showConfirmButton: false,
+          timer: 1500
+        })
+      }, function(error) {
+         console.log('FAILED...', error);
+         Swal.fire({
+          position: 'center',
+          icon: 'error',
+          title: 'oops!something goes wrong!',
+          showConfirmButton: false,
+          timer: 1500
+        })
+      });
+console.log(email,message)
+  }
     return( <div className="leading-normal tracking-normal text-indigo-400 m-6 bg-cover bg-fixed" >
     <div className="h-full">
       <div className=" grid grid-flow-row sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 ">
@@ -22,11 +55,30 @@ export default function landing (){
               <label className="block text-blue-300 py-2 font-bold mb-2" htmlFor="emailaddress">
               Sign up to receive notifications for every new blog article.
               </label>
+              <label className="block text-blue-300 py-2 font-bold mb-2" htmlFor="emailaddress">
+              Email
+              </label>
+
               <input
                 className="shadow appearance-none border rounded w-full px-8 py-5 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
                 id="emailaddress"
                 type="text"
+                value={email}
                 placeholder="you@somewhere.com"
+                onChange={(e)=>setEmail(e.target.value)}
+              />
+            </div>
+            <div className="mb-4">
+              <label className="block text-blue-300 py-2 font-bold mb-2" htmlFor="message">
+              Message
+              </label>
+              <input
+                className="shadow appearance-none border rounded w-full px-8 py-5 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
+                id="message"
+                type="text"
+                placeholder="Your Message..."
+                value={message}
+                onChange={(e)=>setMessage(e.target.value)}
               />
             </div>
 
@@ -34,6 +86,7 @@ export default function landing (){
               <button
                 className="bg-gradient-to-r from-blue-500 via-pink-500 to-green-500 hover:from-green-500 hover:to-blue-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
                 type="button"
+                onClick={handleSubmit}
               >
                 Sign Up
               </button>
