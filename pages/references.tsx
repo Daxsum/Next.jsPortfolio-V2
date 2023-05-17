@@ -15,6 +15,7 @@ export default function Resume() {
       </h1>
     </div>
     <div className='grid grid-flow-row gap-8 pt-10 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2'>
+
     {reference.map((d)=><div className='
                max-w-full
                rounded-2xl
@@ -24,26 +25,37 @@ export default function Resume() {
                [ bg-gradient-to-b from-blue/60 to-white/20 ]
                [ border-[1px] border-solid border-white border-opacity-30 ]
                [ shadow-white/20 shadow-xl ] transform transition duration-300 hover:scale-105'>
-                <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
-        <div className="flex flex-col items-center  pt-8">
-          <Image
-            src={d.avatar}
-            alt="avatar"
-            width="192px"
-            height="192px"
-            className="h-48 w-48 rounded-full "
-          />
-          <h2 className="pt-4 pb-2 text-md font-bold leading-8 tracking-tight whitespace-nowrap">{d.name}</h2>
-          <div className="text-gray-500 dark:text-gray-400  whitespace-nowrap">{d.occupation}</div>
-          <div className="text-gray-500 dark:text-gray-400  whitespace-nowrap">{d.company}</div>
-          <div className="flex space-x-3 pt-6">
-          <SocialIcon kind="mail" href={`mailto:${d.email}`} />
-          <SocialIcon kind="github" href={d.github} />
-          <SocialIcon kind="linkedin" href={d.linkedin} />
-          </div>
-        </div>
-        <div className="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">
+                <div >
+        <div className="flex flex-col ">
+       
+        <div className="text-6xl text-White-500 text-left leading-tight h-6 -mt-3">“</div>
+        <div className="prose max-w-none text-justify pt-2   dark:prose-dark ">
           {d.message}
+     </div>
+     <div className="text-6xl text-white-500 text-right leading-tight h-3 -mt-3">”</div>
+     <div className='flex gap-16 pt-5 items-center'>
+       <div className='items-center'>
+       
+       <Image
+         src={d.avatar}
+         alt="avatar"
+         width="92px"
+         height="92px"
+         className=" h-48 w-48 rounded-full"
+       />
+       </div>
+       <div>
+       <h2 className="pt-4 pb-2 text-md font-bold leading-8 tracking-tight whitespace-nowrap">{d.name}</h2>
+            <div className="text-gray-500 dark:text-gray-400  whitespace-nowrap">{d.occupation}</div>
+            <div className="text-gray-500 dark:text-gray-400  whitespace-nowrap">{d.company}</div>
+            <div className="flex space-x-3 pt-6">
+            <SocialIcon kind="mail" href={`mailto:${d.email}`} />
+            <SocialIcon kind="github" href={d.github} />
+            <SocialIcon kind="linkedin" href={d.linkedin} />
+            </div>
+       </div>
+            
+          </div>
      </div>
   </div>
       </div>)}</div>
