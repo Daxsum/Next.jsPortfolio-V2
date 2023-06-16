@@ -1,5 +1,40 @@
 {
   "cacheItemsMap": {
+    "authors/default.mdx": {
+      "document": {
+        "name": "Kalab Tenadeg",
+        "avatar": "/static/images/my logo.png",
+        "occupation": "Senior Software Engineer",
+        "company": "Orange Digital Center",
+        "email": "Kaldax250@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/kalab-tenadeg-840a49217/",
+        "github": "https://github.com/Daxsum",
+        "body": {
+          "raw": "Hi there … My name is Kalab Tenadeg I'm Software Engineer with years of experience in providing High-Impact Web \nSolutions for Diverse Industry Organizations. I’m honest and committed to learn anything regarding to my career.\nI enjoy learning new things, and spend my time outside of work dabbling on small projects.\n\nMost recently, I have focused my time on:\n\n- Side Software Projects\n- Travel \n- volunteering\n\n\n",
+          "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var u=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var i in n)o(e,i,{get:n[i],enumerable:!0})},s=(e,n,i,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of g(n))!p.call(e,r)&&r!==i&&o(e,r,{get:()=>n[r],enumerable:!(a=d(n,r))||a.enumerable});return e};var x=(e,n,i)=>(i=e!=null?m(h(e)):{},s(n||!e||!e.__esModule?o(i,\"default\",{value:e,enumerable:!0}):i,e)),y=e=>s(o({},\"__esModule\",{value:!0}),e);var c=u((I,l)=>{l.exports=_jsx_runtime});var _={};f(_,{default:()=>w,frontmatter:()=>b});var t=x(c()),b={name:\"Kalab Tenadeg\",avatar:\"/static/images/my logo.png\",occupation:\"Senior Software Engineer\",company:\"Orange Digital Center\",email:\"Kaldax250@gmail.com\",linkedin:\"https://www.linkedin.com/in/kalab-tenadeg-840a49217/\",github:\"https://github.com/Daxsum\"};function j(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,Object.assign({},e,{children:(0,t.jsx)(i,{})})):i();function i(){let a=Object.assign({p:\"p\",ul:\"ul\",li:\"li\"},e.components);return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(a.p,{children:\"Hi there \\u2026 My name is Kalab Tenadeg I'm Software Engineer with years of experience in providing High-Impact Web Solutions for Diverse Industry Organizations. I\\u2019m honest and committed to learn anything regarding to my career. I enjoy learning new things, and spend my time outside of work dabbling on small projects.\"}),(0,t.jsx)(a.p,{children:\"Most recently, I have focused my time on:\"}),(0,t.jsxs)(a.ul,{children:[(0,t.jsx)(a.li,{children:\"Side Software Projects\"}),(0,t.jsx)(a.li,{children:\"Travel\"}),(0,t.jsx)(a.li,{children:\"volunteering\"})]})]})}}var w=j;return y(_);})();\n;return Component;"
+        },
+        "_id": "authors/default.mdx",
+        "_raw": {
+          "sourceFilePath": "authors/default.mdx",
+          "sourceFileName": "default.mdx",
+          "sourceFileDir": "authors",
+          "contentType": "mdx",
+          "flattenedPath": "authors/default"
+        },
+        "type": "Authors",
+        "readingTime": {
+          "text": "1 min read",
+          "minutes": 0.335,
+          "time": 20100,
+          "words": 67
+        },
+        "slug": "default",
+        "toc": []
+      },
+      "documentHash": "1684108617670",
+      "hasWarnings": false,
+      "documentTypeName": "Authors"
+    },
     "blog/JavaScript_FrameWorks.mdx": {
       "document": {
         "title": "JavaScript Frameworks",
@@ -220,41 +255,6 @@
       "documentHash": "1684279192352",
       "hasWarnings": false,
       "documentTypeName": "Blog"
-    },
-    "authors/default.mdx": {
-      "document": {
-        "name": "Kalab Tenadeg",
-        "avatar": "/static/images/my logo.png",
-        "occupation": "Senior Software Engineer",
-        "company": "Orange Digital Center",
-        "email": "Kaldax250@gmail.com",
-        "linkedin": "https://www.linkedin.com/in/kalab-tenadeg-840a49217/",
-        "github": "https://github.com/Daxsum",
-        "body": {
-          "raw": "Hi there … My name is Kalab Tenadeg I'm Software Engineer with years of experience in providing High-Impact Web \nSolutions for Diverse Industry Organizations. I’m honest and committed to learn anything regarding to my career.\nI enjoy learning new things, and spend my time outside of work dabbling on small projects.\n\nMost recently, I have focused my time on:\n\n- Side Software Projects\n- Travel \n- volunteering\n\n\n",
-          "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var u=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),f=(e,n)=>{for(var i in n)o(e,i,{get:n[i],enumerable:!0})},s=(e,n,i,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of g(n))!p.call(e,r)&&r!==i&&o(e,r,{get:()=>n[r],enumerable:!(a=d(n,r))||a.enumerable});return e};var x=(e,n,i)=>(i=e!=null?m(h(e)):{},s(n||!e||!e.__esModule?o(i,\"default\",{value:e,enumerable:!0}):i,e)),y=e=>s(o({},\"__esModule\",{value:!0}),e);var c=u((I,l)=>{l.exports=_jsx_runtime});var _={};f(_,{default:()=>w,frontmatter:()=>b});var t=x(c()),b={name:\"Kalab Tenadeg\",avatar:\"/static/images/my logo.png\",occupation:\"Senior Software Engineer\",company:\"Orange Digital Center\",email:\"Kaldax250@gmail.com\",linkedin:\"https://www.linkedin.com/in/kalab-tenadeg-840a49217/\",github:\"https://github.com/Daxsum\"};function j(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,Object.assign({},e,{children:(0,t.jsx)(i,{})})):i();function i(){let a=Object.assign({p:\"p\",ul:\"ul\",li:\"li\"},e.components);return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(a.p,{children:\"Hi there \\u2026 My name is Kalab Tenadeg I'm Software Engineer with years of experience in providing High-Impact Web Solutions for Diverse Industry Organizations. I\\u2019m honest and committed to learn anything regarding to my career. I enjoy learning new things, and spend my time outside of work dabbling on small projects.\"}),(0,t.jsx)(a.p,{children:\"Most recently, I have focused my time on:\"}),(0,t.jsxs)(a.ul,{children:[(0,t.jsx)(a.li,{children:\"Side Software Projects\"}),(0,t.jsx)(a.li,{children:\"Travel\"}),(0,t.jsx)(a.li,{children:\"volunteering\"})]})]})}}var w=j;return y(_);})();\n;return Component;"
-        },
-        "_id": "authors/default.mdx",
-        "_raw": {
-          "sourceFilePath": "authors/default.mdx",
-          "sourceFileName": "default.mdx",
-          "sourceFileDir": "authors",
-          "contentType": "mdx",
-          "flattenedPath": "authors/default"
-        },
-        "type": "Authors",
-        "readingTime": {
-          "text": "1 min read",
-          "minutes": 0.335,
-          "time": 20100,
-          "words": 67
-        },
-        "slug": "default",
-        "toc": []
-      },
-      "documentHash": "1684108617670",
-      "hasWarnings": false,
-      "documentTypeName": "Authors"
     }
   }
 }
