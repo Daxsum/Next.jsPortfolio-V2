@@ -50,8 +50,8 @@ const projectsData = [
   {
     title: 'Three.js First Impression Project',
     description: ` a simple three js camera traking and object designing webApp`,
-    imgSrc: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.logrocket.com%2Fthree-js-geometries-and-materials%2F&psig=AOvVaw2y4mFaNlJCIAXLjvgTcQt6&ust=1687001398859000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPCZ6Y_Yx_8CFQAAAAAdAAAAABAE',
-    href: 'https://addissofttestfront.onrender.com/',
+    imgSrc: '/static/images/skills/threejs-geometries-materials.webp',
+    href: 'https://codesandbox.io/s/hardcore-chandrasekhar-4j5w4h?file=/src/App.js',
   },
 ]
 

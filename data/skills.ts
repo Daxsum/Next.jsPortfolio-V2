@@ -82,10 +82,18 @@ const skills = [
     {
     id:11,
     skill: " mongoDB ",
-    logo: "/static/images/skills/mongoDB.jpg",
+    logo: "/static/images/skills/MongoDB.jpg",
     alt:"mongoDB_logo",
     persent:88,
     year: "2017-present"    
+    },
+    {
+    id:11,
+    skill: " Three.js ",
+    logo: "/static/images/skills/threejs-geometries-materials.webp",
+    alt:"three.js",
+    persent:88,
+    year: "2023-present"    
     },
     {
     id:12,
