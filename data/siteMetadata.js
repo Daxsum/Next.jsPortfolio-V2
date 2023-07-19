@@ -1,7 +1,7 @@
 const siteMetadata = {
   title: 'Kalab Tenadeg',
   author: 'Kalab Tenadeg',
-  headerTitle: 'KT',
+  headerTitle: '',
   description: 'My personal blog',
   header: "What's been going on recently.",
   language: 'en-us',
