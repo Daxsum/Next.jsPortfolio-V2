@@ -17,6 +17,7 @@ export default function Resume() {
     <div className='grid grid-flow-row gap-8 pt-10 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2'>
 
     {reference.map((d)=><div className='
+    animate-flip-up animate-once animate-duration-1000
                max-w-full
                rounded-2xl
                mb-10

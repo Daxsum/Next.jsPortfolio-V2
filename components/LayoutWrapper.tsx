@@ -20,7 +20,7 @@ const LayoutWrapper = ({ children }: Props) => {
           <div>
             <Link href="/" aria-label={siteMetadata.headerTitle}>
               <div className="flex items-center justify-between">
-                <div className="mr-3 ">
+                <div className="mr-3 animate-spin animate-once ">
                 <a href='https://kalab-tenadeg.vercel.app/' ><img width={200} height={300} src='https://svgshare.com/i/vV5.svg' title='Kalab Tenadeg' /></a>
                 </div>
                 {typeof siteMetadata.headerTitle === 'string' ? (
@@ -34,12 +34,12 @@ const LayoutWrapper = ({ children }: Props) => {
             </Link>
           </div>
           <div className="flex items-center text-base leading-5">
-            <div className="hidden sm:block">
+            <div className="hidden sm:block ">
               {headerNavLinks.map((link) => (
                 <Link
                   key={link.title}
                   href={link.href}
-                  className="p-1 font-medium text-gray-900 dark:text-gray-100 sm:p-4"
+                  className="p-1 font-medium text-gray-900 dark:text-gray-100 sm:p-4 animate-fade-up animate-once animate-duration-1000"
                 >
                   {link.title}
                 </Link>
