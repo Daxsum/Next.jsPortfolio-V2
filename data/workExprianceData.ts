@@ -3,7 +3,7 @@ const workExpriance = [
     name: ' Senior Full Stack Engineer ',
     avatar: '/static/images/africa.jpeg',
     occupation: '@ Africa Technology PLC ',
-    year: '2022-present',
+    year: '2023-present',
     message: [
       'Responsible for developing and maintaining the web applications for customers, drivers, and dispatchers. This includes things like the admin panel, dispatcher web panel, and internal tools.',
       ' Work on the backend systems and APIs that power the apps.',
@@ -20,7 +20,7 @@ const workExpriance = [
     name: ' Full Stack Developer ',
     avatar: '/static/images/orange.jpeg',
     occupation: '@ Orange Digital Center ',
-    year: '2022-present',
+    year: '2022-2023',
     message: [
       'Responsible to lead the team and work as Front End developer for medical GO_FUND_ME platform called LDAN',
       'Designed, developed, and modified 25+ software modules and custom components',
