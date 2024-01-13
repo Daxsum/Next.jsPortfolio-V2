@@ -1,6 +1,6 @@
 const workExpriance = [
   {
-    name: ' Senior Full Stack Engineer ',
+    name: ' Senior Full Stack and DevOps Engineer ',
     avatar: '/static/images/africa.jpeg',
     occupation: '@ Africa Technology PLC ',
     year: '2023-present',
@@ -31,7 +31,7 @@ const workExpriance = [
     ],
   },
   {
-    name: ' Junior Full Stack developer ',
+    name: '  Full Stack developer ',
     avatar: '/static/images/afrofigure.jpeg',
     occupation: '@ AfroFigure Event ',
     year: '2021-2022',
