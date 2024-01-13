@@ -31,19 +31,18 @@ model-generated responses. The messages array allows for dynamic conversation fl
 
 Example Code:
 
-```py
+```python
 import openai
 
 openai.ChatCompletion.create(
-model="gpt-3.5-turbo",
-messages=[
-{"role": "system", "content": "You are a helpful assistant."},
-{"role": "user", "content": "Who won the world series in 2020?"},
-{"role": "assistant", "content": "The Los Angeles Dodgers won the World Series in 2020."},
-{"role": "user", "content": "Where was it played?"}
-]
+  model="gpt-3.5-turbo",
+  messages=[
+    {"role": "system", "content": "You are a helpful assistant."},
+    {"role": "user", "content": "Who won the world series in 2020?"},
+    {"role": "assistant", "content": "The Los Angeles Dodgers won the World Series in 2020."},
+    {"role": "user", "content": "Where was it played?"}
+  ]
 )
-```
 
 - Use Cases:
 
@@ -61,3 +60,4 @@ messages=[
 ## Conclusion
 
 The ChatGPT Integration API opens up endless possibilities for developers to create conversational applications that feel natural and intelligent. By harnessing the power of ChatGPT, you can revolutionize the way users interact with technology. Start integrating, start conversing, and witness the magic unfold in your applications! ✨🚀
+```
