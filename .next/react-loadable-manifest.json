@@ -1,20 +1,20 @@
 {
   "../components/comments/index.tsx -> @/components/comments/Disqus": {
-    "id": 5971,
+    "id": "../components/comments/index.tsx -> @/components/comments/Disqus",
     "files": [
-      "static/chunks/971.4ce355131ec5bd9a.js"
+      "static/chunks/components_comments_Disqus_tsx.js"
     ]
   },
   "../components/comments/index.tsx -> @/components/comments/Giscus": {
-    "id": 5655,
+    "id": "../components/comments/index.tsx -> @/components/comments/Giscus",
     "files": [
-      "static/chunks/655.21ff8f1083712b91.js"
+      "static/chunks/components_comments_Giscus_tsx.js"
     ]
   },
   "../components/comments/index.tsx -> @/components/comments/Utterances": {
-    "id": 6864,
+    "id": "../components/comments/index.tsx -> @/components/comments/Utterances",
     "files": [
-      "static/chunks/864.ac9509d10e31a5a6.js"
+      "static/chunks/components_comments_Utterances_tsx.js"
     ]
   }
 }

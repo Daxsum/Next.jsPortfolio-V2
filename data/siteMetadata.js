@@ -13,7 +13,7 @@ const siteMetadata = {
   socialBanner: '/static/images/twitter-card.jpg',
   email: 'kalabtenadeg@yahoo.com',
   github: 'https://github.com/Daxsum',
-  linkedin: 'https://www.linkedin.com/in/kalab-tenadeg-840a49217/',
+  linkedin: 'https://www.linkedin.com/in/kalabtenadeg/',
   instagram: 'https://www.instagram.com/kal_the_daxsum_golden_jet_j.r/',
   locale: 'en-US',
   analytics: {
