@@ -1,12 +1,10 @@
 const workExpriance = [
   {
-    name: ' Senior Full Stack and DevOps Engineer ',
+    name: ' junior DevOps Engineer ',
     avatar: '/static/images/africa.jpeg',
     occupation: '@ Africa Technology PLC ',
-    year: '2023-present',
+    year: '2024-present',
     message: [
-      'Responsible for developing and maintaining the web applications for customers, drivers, and dispatchers. This includes things like the admin panel, dispatcher web panel, and internal tools.',
-      ' Work on the backend systems and APIs that power the apps.',
       'Maintaining and scaling the infrastructure that the apps and services run on.',
       'Implementing new features and improvements to the apps and services. Things like adding support for shared rides, implementing real-time tracking of drivers, improving the algorithms for matching drivers to riders, and more...',
       'troubleshooting issues and bugs in the apps and services to ensure a smooth user experience.',
@@ -17,7 +15,35 @@ const workExpriance = [
     ],
   },
   {
-    name: ' Full Stack Developer ',
+    name: ' Senior Full Stack Engineer ',
+    avatar: '/static/images/africa.jpeg',
+    occupation: '@ Africa Technology PLC ',
+    year: '2023-present',
+    message: [
+      'Responsible for developing and maintaining the web applications for customers, drivers, and dispatchers. This includes things like the admin panel, dispatcher web panel, and internal tools.',
+      ' Work on the backend systems and APIs that power the apps.',
+      'Implementing new features and improvements to the apps and services. Things like adding support for shared rides, implementing real-time tracking of drivers, improving the algorithms for matching drivers to riders, and more...',
+      'troubleshooting issues and bugs in the apps and services to ensure a smooth user experience.',
+      'optimizing the performance of the apps and backend systems to reduce latency, improve reliability, and scale efficiently.',
+      'Maintaining high standards for security, scalability, observability, and other quality attributes when developing systems',
+    ],
+  },
+  {
+    name: ' Freelance Full Stack Developer',
+    avatar: '/static/images/buyafri.jpg',
+    occupation: '@ Orange Digital Center ',
+    year: '2022-2023',
+    message: [
+      'Responsible to develope full ecommerce platform from scratch using Next.js',
+      'Designed, developed, and modified 65+ software modules and custom components',
+      'Collaborated with  3 stakeholders to develop morethan 15 new user-facing features.',
+      'Assisted in building 100% reusable code and libraries for future use.',
+      'Validated 100% of user input before submitting to the backend.',
+      'Analysed 30+ user requirements to derive technical software design and performance requirements',
+    ],
+  },
+  {
+    name: 'FullStack Developer ',
     avatar: '/static/images/orange.jpeg',
     occupation: '@ Orange Digital Center ',
     year: '2022-2023',
