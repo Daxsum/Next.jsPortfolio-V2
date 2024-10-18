@@ -3,6 +3,7 @@
 import blog__javaScript_frameWorksMdx from './blog__JavaScript_FrameWorks.mdx.json' assert { type: 'json' }
 import blog__trpcMdx from './blog__Trpc.mdx.json' assert { type: 'json' }
 import blog__chatgptMdx from './blog__chatgpt.mdx.json' assert { type: 'json' }
+import blog__typeScriptCopyMdx from './blog__typeScript copy.mdx.json' assert { type: 'json' }
 import blog__typeScriptMdx from './blog__typeScript.mdx.json' assert { type: 'json' }
 
-export const allBlogs = [blog__javaScript_frameWorksMdx, blog__trpcMdx, blog__chatgptMdx, blog__typeScriptMdx]
+export const allBlogs = [blog__javaScript_frameWorksMdx, blog__trpcMdx, blog__chatgptMdx, blog__typeScriptCopyMdx, blog__typeScriptMdx]
