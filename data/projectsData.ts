@@ -13,6 +13,24 @@ const projectsData = [
     href: 'https://buyafri.et',
   },
   {
+    title: 'Serve Smart Pro is a SAAS Product that provide a  ERP system for cafe and restaurants',
+    description: `it is a complete solution for cafe and restaurant mangment system including inventory mangment, order mangment, customer mangment, and more. it is a complete solution for cafe and restaurant mangment system including inventory mangment, order mangment, customer mangment, and more.`,
+    imgSrc: '/static/images/servesmart.jpg',
+    href: 'https://servesmartpro.com/',
+  },
+  {
+    title: 'Qedami Software Solution and Services Company Website and mangment system',
+    description: ` Qedami Software Solution and Services is a leading IT company based in Addis Ababa, Ethiopia, dedicated to providing innovative software solutions and services to both national and international clients. Since our inception, we have been committed to delivering high-quality software and IT solutions.`,
+    imgSrc: '/static/images/qedami.jpg',
+    href: 'https://www.qedamisolution.com/',
+  },
+  {
+    title: 'speedlify solution and services company website and mangment system',
+    description: ` speedlify Solution and Services is a leading IT company based in Addis Ababa, Ethiopia, dedicated to providing MVP software solutions and services the startup companies.`,
+    imgSrc: '/static/images/speedlify.jpeg',
+    href: 'https://speedlifysolutions.com/',
+  },
+  {
     title: 'Guestopia Solutions Company CMS and Mangment Website',
     description: ` CMS web app including social media mangment and analysis integration and internal company mangment tool using next.js -v13 , tailwind css, and  PostHog Anlytics`,
     imgSrc: '/static/images/guestopia.jpg',
