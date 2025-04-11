@@ -21,7 +21,7 @@ const LayoutWrapper = ({ children }: Props) => {
             <Link href="/" aria-label={siteMetadata.headerTitle}>
               <div className="flex items-center justify-between">
                 <div className="mr-3 animate-spin animate-once ">
-                <a href='https://kalab-tenadeg.vercel.app/' ><img width={200} height={300} src='https://svgshare.com/i/vV5.svg' title='Kalab Tenadeg' /></a>
+                <a href='https://kalab-tenadeg.vercel.app/' ><img width={200} height={300} src='/static/images/logo.png' title='Kalab Tenadeg' /></a>
                 </div>
                 {typeof siteMetadata.headerTitle === 'string' ? (
                   <div className="hidden h-6 text-2xl font-semibold sm:block">
