@@ -1,9 +1,28 @@
 const workExpriance = [
   {
-    name: ' junior DevOps Engineer ',
+    name: ' Senior FullStack Engineer  ',
+    avatar: '/static/images/playstream.png',
+    occupation: '@ Playstream Interactive ',
+    year: '2025-present',
+    message: [
+      'Full Stack Development: Designed and implemented complete web applications and VAS platforms using modern technologies like React, Node.js, and Python frameworks.'
+     'Telecom VAS Integration: Built and maintained APIs integrating with major telecom partners such as Telebirr and M-pesa for delivering various value-added services.
+'Service Development: Created scalable VAS solutions including USSD applications, SMS services, and mobile web platforms.'
+'Partner Collaboration: Worked directly with telecom partner teams to deliver customized VAS solutions that meet specific market and user needs.'
+'System Optimization: Enhanced application performance and user experience through code improvements and infrastructure upgrades.'
+'Technical Support: Provided technical expertise and ongoing maintenance for live VAS platforms to ensure high availability and reliability.'
+'# Key Achievements'
+'Successfully delivered multiple VAS platform projects for major telecom partners.'
+'Developed and maintained high-traffic VAS applications serving thousands of users daily.'
+'Implemented robust monitoring and logging systems that reduced service downtime.'
+'Worked with cross-functional teams to deliver VAS solutions on time and within budget.'
+    ],
+  },
+  {
+    name: ' DevOps Engineer ',
     avatar: '/static/images/africa.jpeg',
     occupation: '@ Africa Technology PLC ',
-    year: '2024-present',
+    year: '2024-2025',
     message: [
       'Maintaining and scaling the infrastructure that the apps and services run on.',
       'Implementing new features and improvements to the apps and services. Things like adding support for shared rides, implementing real-time tracking of drivers, improving the algorithms for matching drivers to riders, and more...',
