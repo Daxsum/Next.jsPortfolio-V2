@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>kalabtenadeg@yahoo.com (Kalab Tenadeg)</managingEditor>
       <webMaster>kalabtenadeg@yahoo.com (Kalab Tenadeg)</webMaster>
-      <lastBuildDate>Fri, 30 Dec 2022 16:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Fri, 18 Oct 2024 15:51:14 GMT</lastBuildDate>
       <atom:link href="https://Daxum.dev/tags/review/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://Daxum.dev/blog/12_web_api</guid>
+    <title> 12 Essential Web APIs Every Developer Should Know </title>
+    <link>https://Daxum.dev/blog/12_web_api</link>
+    <description>Every developer Should know this 12 essential APIs</description>
+    <pubDate>Fri, 18 Oct 2024 15:51:14 GMT</pubDate>
+    <author>kalabtenadeg@yahoo.com (Kalab Tenadeg)</author>
+    <category>review</category>
+  </item>
+
   <item>
     <guid>https://Daxum.dev/blog/Trpc</guid>
     <title>tRPC (Transport RPC)First Impression</title>
@@ -22,7 +32,7 @@
 
   <item>
     <guid>https://Daxum.dev/blog/chatGPT</guid>
-    <title>Unlocking Conversational Magic: Exploring ChatGPT Integration API 🚀</title>
+    <title>Conversational Magic: Exploring ChatGPT Integration API 🚀</title>
     <link>https://Daxum.dev/blog/chatGPT</link>
     <description>This is how easy to integrate ai with your website</description>
     <pubDate>Mon, 05 Jun 2023 15:51:14 GMT</pubDate>
@@ -31,8 +41,18 @@
   </item>
 
   <item>
+    <guid>https://Daxum.dev/blog/rsa</guid>
+    <title> 12 Essential Web APIs Every Developer Should Know </title>
+    <link>https://Daxum.dev/blog/rsa</link>
+    <description>Every developer Should know this 12 essential APIs</description>
+    <pubDate>Fri, 18 Oct 2024 15:51:14 GMT</pubDate>
+    <author>kalabtenadeg@yahoo.com (Kalab Tenadeg)</author>
+    <category>review</category>
+  </item>
+
+  <item>
     <guid>https://Daxum.dev/blog/typeScript</guid>
-    <title>TypeScript First Impression</title>
+    <title>TypeScript </title>
     <link>https://Daxum.dev/blog/typeScript</link>
     <description>This is Why TypeScript provides better IDE support than JavaScript</description>
     <pubDate>Sat, 05 Jun 2021 15:51:14 GMT</pubDate>

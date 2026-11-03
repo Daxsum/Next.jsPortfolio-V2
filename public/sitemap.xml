@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://Daxum.dev/tags/coding</loc>
+  </url>
+
+  <url>
+    <loc>https://Daxum.dev/tags/review</loc>
+  </url>
+
+  <url>
+    <loc>https://Daxum.dev/blog/12_web_api</loc>
+  </url>
+
+  <url>
     <loc>https://Daxum.dev/blog/JavaScript_FrameWorks</loc>
   </url>
 
@@ -10,6 +22,10 @@
 
   <url>
     <loc>https://Daxum.dev/blog/chatGPT</loc>
+  </url>
+
+  <url>
+    <loc>https://Daxum.dev/blog/rsa</loc>
   </url>
 
   <url>

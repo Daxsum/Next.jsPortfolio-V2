@@ -1,9 +1,12 @@
-import { writeFileSync, mkdirSync } from 'fs'
+import { writeFileSync, mkdirSync, readFileSync } from 'fs'
 import path from 'path'
 import GithubSlugger from 'github-slugger'
 import { escape } from './htmlEscaper.mjs'
 import siteMetadata from '../data/siteMetadata.js'
-import { allBlogs } from '../.contentlayer/generated/index.mjs'
+
+const allBlogs = JSON.parse(
+  readFileSync(new URL('../.contentlayer/generated/Blog/_index.json', import.meta.url))
+)
 
 // TODO: refactor into contentlayer once compute over all docs is enabled
 export async function getAllTags() {

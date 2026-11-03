@@ -1,8 +1,11 @@
-import { writeFileSync } from 'fs'
+import { writeFileSync, readFileSync } from 'fs'
 import globby from 'globby'
 import prettier from 'prettier'
 import siteMetadata from '../data/siteMetadata.js'
-import { allBlogs } from '../.contentlayer/generated/index.mjs'
+
+const allBlogs = JSON.parse(
+  readFileSync(new URL('../.contentlayer/generated/Blog/_index.json', import.meta.url))
+)
 
 async function generate() {
   const prettierConfig = await prettier.resolveConfig('./.prettierrc.js')

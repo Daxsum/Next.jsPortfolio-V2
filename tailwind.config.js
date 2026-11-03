@@ -34,6 +34,7 @@ module.exports = {
       },
       colors: {
         primary: colors.indigo,
+        gray: colors.zinc,
       },
       typography: (theme) => ({
         DEFAULT: {
