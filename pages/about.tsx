@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 import emailjs from '@emailjs/browser'
 import Swal from 'sweetalert2'
 import { PageSEO } from '@/components/SEO'
-import { SectionHeading, Badge, Button } from '@/components/ui'
+import { SectionHeading, Badge, Button, Panel } from '@/components/ui'
+import Reveal from '@/components/Reveal'
 import SocialIcon from '@/components/social-icons'
 import siteMetadata from '@/data/siteMetadata'
 
@@ -60,16 +61,27 @@ export default function Contact() {
     <>
       <PageSEO title={`Contact - ${siteMetadata.author}`} description="Let's work together" />
       <div className="space-y-16 py-16">
-        <SectionHeading
-          eyebrow="Contact"
-          title="Let's work together"
-          description="Tell me a bit about what you need and I'll get back to you."
-        />
+        <Reveal>
+          <SectionHeading
+            eyebrow="Contact"
+            title="Let's work together"
+            description="Tell me a bit about what you need. I read every message myself and reply from this inbox, not a form robot."
+          />
+        </Reveal>
 
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-5">
-          <div className="space-y-8 rounded-2xl border border-gray-200 p-8 dark:border-gray-700 lg:col-span-3">
-            <div className="text-sm font-medium text-gray-500 dark:text-gray-400">
-              Step {step} of 3
+          <Reveal className="lg:col-span-3" delay={80}>
+            <div className="space-y-8 rounded-3xl border border-gray-200 p-8 dark:border-gray-800">
+            <div className="flex items-center gap-3">
+              <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-gray-100 dark:bg-gray-800">
+                <div
+                  className="h-full rounded-full bg-primary-500 transition-all duration-500"
+                  style={{ width: `${(step / 3) * 100}%` }}
+                />
+              </div>
+              <div className="text-sm font-medium text-gray-500 dark:text-gray-400">
+                Step {step} of 3
+              </div>
             </div>
 
             {step === 1 && (
@@ -166,21 +178,27 @@ export default function Contact() {
                 </div>
               </div>
             )}
-          </div>
-
-          <div className="space-y-6 lg:col-span-2">
-            <h3 className="text-sm font-semibold uppercase tracking-widest text-gray-500 dark:text-gray-400">
-              Or reach me directly
-            </h3>
-            <div className="flex items-center gap-4">
-              <SocialIcon kind="mail" href={`mailto:${siteMetadata.email}`} size={6} />
-              <SocialIcon kind="github" href={siteMetadata.github} size={6} />
-              <SocialIcon kind="linkedin" href={siteMetadata.linkedin} size={6} />
             </div>
-            <Button href="/resume" variant="outline">
-              View résumé
-            </Button>
-          </div>
+          </Reveal>
+
+          <Reveal className="lg:col-span-2" delay={160}>
+            <Panel className="space-y-6 p-8">
+              <h3 className="text-sm font-semibold uppercase tracking-widest text-gray-500 dark:text-gray-400">
+                Or reach me directly
+              </h3>
+              <p className="text-sm text-gray-500 dark:text-gray-400">
+                Prefer email or a DM over a form? Here&apos;s where to find me.
+              </p>
+              <div className="flex items-center gap-4">
+                <SocialIcon kind="mail" href={`mailto:${siteMetadata.email}`} size={6} />
+                <SocialIcon kind="github" href={siteMetadata.github} size={6} />
+                <SocialIcon kind="linkedin" href={siteMetadata.linkedin} size={6} />
+              </div>
+              <Button href="/resume" variant="outline">
+                View résumé
+              </Button>
+            </Panel>
+          </Reveal>
         </div>
       </div>
     </>

@@ -15,6 +15,15 @@ const projectsData = [
     description: ` an ecommerce and logestic company website and mangment system including social media mangment and analysis integration and internal company mangment tool , delivery tracking details and more using next.js -v13 , tailwind css, and  PostHog Anlytics`,
     imgSrc: '/static/images/buyafri.jpg',
     href: 'https://buyafri.et',
+    caseStudy: {
+      role: 'Full-stack developer',
+      challenge:
+        'BuyAfri needed to run ecommerce sales, delivery logistics, and internal operations without juggling three separate tools.',
+      approach:
+        'Built the storefront, delivery tracking, and internal management tool on Next.js 13 and Tailwind CSS, with PostHog wired in for social and analytics tracking.',
+      outcome:
+        'Live in production at buyafri.et, handling orders, delivery tracking, and internal company management in one system.',
+    },
   },
   {
     title: 'Serve Smart Pro is a SAAS Product that provide a  ERP system for cafe and restaurants',
@@ -23,6 +32,14 @@ const projectsData = [
     description: `it is a complete solution for cafe and restaurant mangment system including inventory mangment, order mangment, customer mangment, and more. it is a complete solution for cafe and restaurant mangment system including inventory mangment, order mangment, customer mangment, and more.`,
     imgSrc: '/static/images/servesmart.jpg',
     href: 'https://servesmartpro.com/',
+    caseStudy: {
+      role: 'Full-stack developer',
+      challenge:
+        'Cafes and restaurants were running inventory, orders, and customer management across disconnected tools and spreadsheets.',
+      approach:
+        'Built Serve Smart Pro as a single SaaS ERP covering inventory tracking, order flow, and customer management for food-service businesses.',
+      outcome: 'Shipped as a live SaaS product at servesmartpro.com.',
+    },
   },
   {
     title: 'Qedami Software Solution and Services Company Website and mangment system',
@@ -47,6 +64,13 @@ const projectsData = [
     description: ` CMS web app including social media mangment and analysis integration and internal company mangment tool using next.js -v13 , tailwind css, and  PostHog Anlytics`,
     imgSrc: '/static/images/guestopia.jpg',
     href: 'https://guestopia.net',
+    caseStudy: {
+      role: 'Full-stack developer',
+      challenge: 'Guestopia needed a CMS that doubled as an internal management tool, not just a content editor.',
+      approach:
+        'Built on Next.js 13 and Tailwind CSS, with PostHog integrated for social media management and analytics.',
+      outcome: 'Running in production at guestopia.net.',
+    },
   },
   {
     title: 'Highlight Tradings Company Profile Website',
@@ -63,6 +87,13 @@ const projectsData = [
     description: `Service order and CMS web app using react 18 and tailwind css`,
     imgSrc: '/static/images/govassist.jpg',
     href: 'https://govassist.com/',
+    caseStudy: {
+      role: 'Full-stack developer',
+      challenge:
+        'Govassist needed a service-order workflow paired with a CMS so non-technical staff could manage content without a developer on call.',
+      approach: 'Built with React 18 and Tailwind CSS, pairing an order workflow with an editable CMS layer.',
+      outcome: 'Live at govassist.com.',
+    },
   },
   {
     title: 'Ecommerce Next.js Project',
