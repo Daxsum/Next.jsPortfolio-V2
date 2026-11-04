@@ -34,26 +34,20 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
       <ExperienceTimeline limit={4} />
       <WritingSection posts={posts.slice(0, 3)} />
       <Reveal>
-        <div className="relative my-16 overflow-hidden rounded-3xl bg-gray-900 p-10 text-center dark:bg-gray-800 sm:p-16">
-          <div
-            aria-hidden
-            className="pointer-events-none absolute -left-16 -top-16 h-64 w-64 rounded-full bg-primary-500/20 blur-3xl"
-          />
-          <div className="relative flex flex-col items-center gap-6">
-            <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
-              Got something worth building?
-            </h2>
-            <p className="max-w-md text-gray-300">
-              Tell me what you&apos;re trying to ship. I&apos;ll tell you honestly whether I&apos;m
-              the right person for it.
-            </p>
-            <Link
-              href="/about"
-              className="inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-gray-900 transition-all duration-200 hover:-translate-y-0.5 hover:bg-primary-100"
-            >
-              Start a conversation
-            </Link>
-          </div>
+        <div className="my-16 flex flex-col items-center gap-6 rounded-3xl bg-gray-900 p-10 text-center dark:bg-gray-800 sm:p-16">
+          <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
+            Got something worth building?
+          </h2>
+          <p className="max-w-md text-gray-300">
+            Tell me what you&apos;re trying to ship. I&apos;ll tell you honestly whether I&apos;m
+            the right person for it.
+          </p>
+          <Link
+            href="/about"
+            className="inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-gray-900 transition-all duration-200 hover:-translate-y-0.5 hover:bg-primary-100"
+          >
+            Start a conversation
+          </Link>
         </div>
       </Reveal>
     </>

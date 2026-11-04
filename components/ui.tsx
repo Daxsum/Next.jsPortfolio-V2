@@ -79,7 +79,7 @@ interface StatProps {
 
 export const Stat = ({ value, label }: StatProps) => (
   <div className="space-y-1">
-    <div className="bg-gradient-to-br from-gray-900 to-gray-600 bg-clip-text text-4xl font-extrabold tracking-tight text-transparent dark:from-gray-100 dark:to-gray-400 sm:text-5xl">
+    <div className="text-4xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100 sm:text-5xl">
       {value}
     </div>
     <div className="text-sm text-gray-500 dark:text-gray-400">{label}</div>

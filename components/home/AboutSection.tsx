@@ -6,12 +6,8 @@ import workExpriance from '@/data/workExprianceData'
 const AboutSection = () => (
   <div className="py-16">
     <Reveal>
-      <Panel className="relative overflow-hidden">
-        <div
-          aria-hidden
-          className="pointer-events-none absolute -right-20 -top-20 h-64 w-64 rounded-full bg-primary-200/40 blur-3xl dark:bg-primary-500/10"
-        />
-        <div className="relative grid grid-cols-1 items-start gap-10 lg:grid-cols-3">
+      <Panel>
+        <div className="grid grid-cols-1 items-start gap-10 lg:grid-cols-3">
           <div className="flex flex-col items-center gap-4 lg:items-start">
             <Image
               src="/static/images/my logo.png"
