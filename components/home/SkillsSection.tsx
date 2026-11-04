@@ -1,6 +1,7 @@
 import skills from '@/data/skills'
 import { SectionHeading } from '@/components/ui'
 import Reveal from '@/components/Reveal'
+import SkillIcon from '@/components/SkillIcon'
 
 const CATEGORY_MAP: Record<string, string> = {
   figma: 'Design',
@@ -13,10 +14,14 @@ const CATEGORY_MAP: Record<string, string> = {
   redux: 'Frontend',
   'next.js': 'Frontend',
   'three.js': 'Frontend',
+  sass: 'Frontend',
   python: 'Backend',
   express: 'Backend',
+  'node.js': 'Backend',
+  graphql: 'Backend',
   postgresql: 'Database',
   mongodb: 'Database',
+  mysql: 'Database',
   docker: 'Infrastructure',
   aws: 'Infrastructure',
   nignx: 'Infrastructure',
@@ -24,6 +29,8 @@ const CATEGORY_MAP: Record<string, string> = {
   'digital ocean': 'Infrastructure',
   vercel: 'Infrastructure',
   netlify: 'Infrastructure',
+  git: 'Infrastructure',
+  posthog: 'Infrastructure',
 }
 
 const CATEGORY_ORDER = ['Frontend', 'Backend', 'Database', 'Infrastructure', 'Design']
@@ -52,9 +59,10 @@ const SkillsSection = () => {
               </h3>
               <div className="space-y-3">
                 {g.items.map((s) => (
-                  <div key={s.id} className="space-y-1">
+                  <div key={s.id} className="space-y-1.5">
                     <div className="flex items-center justify-between text-sm">
-                      <span className="font-medium text-gray-900 dark:text-gray-100">
+                      <span className="flex items-center gap-2 font-medium text-gray-900 dark:text-gray-100">
+                        <SkillIcon skill={s.skill} />
                         {s.skill.trim()}
                       </span>
                       <span className="text-gray-500 dark:text-gray-400">{s.persent}%</span>
