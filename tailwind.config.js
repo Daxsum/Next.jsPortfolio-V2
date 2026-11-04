@@ -36,6 +36,15 @@ module.exports = {
         primary: colors.indigo,
         gray: colors.zinc,
       },
+      keyframes: {
+        float: {
+          '0%, 100%': { transform: 'translateY(0px) rotate(-1deg)' },
+          '50%': { transform: 'translateY(-14px) rotate(1deg)' },
+        },
+      },
+      animation: {
+        float: 'float 6s ease-in-out infinite',
+      },
       typography: (theme) => ({
         DEFAULT: {
           css: {
