@@ -41,6 +41,14 @@ module.exports = {
           '0%, 100%': { transform: 'translateY(0px) rotate(-1deg)' },
           '50%': { transform: 'translateY(-14px) rotate(1deg)' },
         },
+        'process-orbit': {
+          from: { transform: 'rotate(0deg)' },
+          to: { transform: 'rotate(360deg)' },
+        },
+        'process-progress': {
+          from: { transform: 'scaleX(0)' },
+          to: { transform: 'scaleX(1)' },
+        },
       },
       animation: {
         float: 'float 6s ease-in-out infinite',
