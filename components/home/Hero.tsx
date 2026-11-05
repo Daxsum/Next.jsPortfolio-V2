@@ -1,7 +1,7 @@
 import Link from '@/components/Link'
 import { Button } from '@/components/ui'
 import Reveal from '@/components/Reveal'
-import HeroVisual from '@/components/home/HeroVisual'
+import ProcessVisual from '@/components/home/ProcessVisual'
 
 const Hero = () => {
   return (
@@ -33,7 +33,7 @@ const Hero = () => {
         </Reveal>
       </div>
       <Reveal delay={150} className="w-full flex-1">
-        <HeroVisual />
+        <ProcessVisual />
       </Reveal>
     </div>
   )

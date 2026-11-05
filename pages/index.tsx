@@ -6,7 +6,6 @@ import { sortedBlogPost, allCoreContent } from '@/lib/utils/contentlayer'
 import { InferGetStaticPropsType } from 'next'
 import { allBlogs } from 'contentlayer/generated'
 import Hero from '@/components/home/Hero'
-import HowIWork from '@/components/home/HowIWork'
 import StatsBar from '@/components/home/StatsBar'
 import AboutSection from '@/components/home/AboutSection'
 import ProjectsSection from '@/components/home/ProjectsSection'
@@ -26,7 +25,6 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <Hero />
-      <HowIWork />
       <StatsBar postsCount={posts.length} />
       <AboutSection />
       <ProjectsSection limit={6} showFilters={false} showViewAll />

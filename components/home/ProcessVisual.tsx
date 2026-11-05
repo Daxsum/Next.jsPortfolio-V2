@@ -178,7 +178,7 @@ const ProcessVisual = () => {
               type="button"
               onClick={() => setPhase(i)}
               aria-pressed={i === phase}
-              className={`relative h-10 flex-1 overflow-hidden rounded-full px-3 text-sm font-semibold transition-colors duration-300 ${
+              className={`relative h-10 min-w-0 flex-1 truncate rounded-full px-1.5 text-[11px] font-semibold transition-colors duration-300 sm:px-3 sm:text-sm ${
                 i === phase ? 'bg-white text-gray-900' : 'text-white/70 hover:text-white'
               }`}
             >
